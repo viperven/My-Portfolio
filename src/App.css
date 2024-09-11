@@ -41,7 +41,11 @@ body {
   position: fixed;
   z-index: -1;
   bottom: 0px;
+<<<<<<< HEAD
   width: 100vw;
+=======
+  /* width: 100vw; */
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
 }
 
 .bgtwo {

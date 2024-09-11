@@ -10,7 +10,11 @@ import { FaDatabase } from "react-icons/fa6";
 function Projects() {
   return (
     <>
+<<<<<<< HEAD
       <Container id="project" className="section-projects">
+=======
+      <Container className="section-projects">
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
         <h2 className="heading-title">Projects</h2>
         <hr className="titler-hr " />
         <Row className="project-row">
@@ -77,7 +81,11 @@ function Projects() {
             </p>
             <div className="project-icons">
               <div>
+<<<<<<< HEAD
                 <a href="https://github.com/viperven/authentication">
+=======
+                <a href="https://rx-ecommerce.netlify.app/">
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                   <BiLogoNetlify
                     className="hover-size"
                     size="30px"
@@ -87,7 +95,11 @@ function Projects() {
                 <span>View Live</span>
               </div>
               <div>
+<<<<<<< HEAD
                 <a href="https://github.com/viperven/authentication">
+=======
+                <a href="https://github.com/viperven/rx-eccomerce">
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                   <FaGithub
                     className="hover-size"
                     size="30px"

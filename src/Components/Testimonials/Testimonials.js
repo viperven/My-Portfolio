@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import "./Testimonials.css";
 import { Carousel, Col, Container, Image, Row } from "react-bootstrap";
@@ -22,6 +23,14 @@ function Testimonials() {
     setIsOpen(true);
   };
 
+=======
+import React from "react";
+import "./Testimonials.css";
+import { Carousel, Col, Container, Image, Row } from "react-bootstrap";
+import Carousels from "../Carousel/Carousels";
+
+function Testimonials() {
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
   return (
     <>
       <Container className="section-appreciation">
@@ -29,6 +38,7 @@ function Testimonials() {
         <hr className="titler-hr " />
 
         <Row style={{ justifyContent: "space-between" }}>
+<<<<<<< HEAD
           {isOpen && (
             <Lightbox
               image={selectedImage}
@@ -44,50 +54,76 @@ function Testimonials() {
                   onClick={() => handleImageClick("../images/imarticus_certification.jpg")}
                 />
               </Carousel.Item>
+=======
+          <Col xs={12} lg={5}>
+            <Carousel className="my-shadow appreciation-carousel">
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
               <Carousel.Item style={{ textAlign: "center" }}>
                 <Image
                   className="appreciation-image"
                   src="../images/appreciation1.png"
+<<<<<<< HEAD
                   onClick={() => handleImageClick("../images/appreciation1.png")}
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                 />
               </Carousel.Item>
               <Carousel.Item style={{ textAlign: "center" }}>
                 <Image
                   className="appreciation-image"
                   src="../images/appreciation2.png"
+<<<<<<< HEAD
                   onClick={() => handleImageClick("../images/appreciation2.png")}
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                 />
               </Carousel.Item>
               <Carousel.Item style={{ textAlign: "center" }}>
                 <Image
                   className="appreciation-image"
                   src="../images/appreciation2.png"
+<<<<<<< HEAD
                   onClick={() => handleImageClick("../images/appreciation2.png")}
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                 />
               </Carousel.Item>
             </Carousel>
           </Col>
           <Col xs={12} lg={5}>
+<<<<<<< HEAD
             <Carousel className="my-shadow appreciation-carousel" style={{cursor:"pointer"}}>
+=======
+            <Carousel className="my-shadow appreciation-carousel">
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
               <Carousel.Item style={{ textAlign: "center" }}>
                 <Image
                   className="appreciation-image"
                   src="../images/appreciation3.png"
+<<<<<<< HEAD
                   onClick={() => handleImageClick("../images/appreciation3.png")}
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                 />
               </Carousel.Item>
               <Carousel.Item style={{ textAlign: "center" }}>
                 <Image
                   className="appreciation-image"
                   src="../images/udemy_certificate.jpg"
+<<<<<<< HEAD
                   onClick={() => handleImageClick("../images/udemy_certificate.jpg")}
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                 />
               </Carousel.Item>
               <Carousel.Item style={{ textAlign: "center" }}>
                 <Image
                   className="appreciation-image"
                   src="../images/udemy_certificate.jpg"
+<<<<<<< HEAD
                   onClick={() => handleImageClick("../images/udemy_certificate.jpg")}
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
                 />
               </Carousel.Item>
             </Carousel>
@@ -99,6 +135,9 @@ function Testimonials() {
 }
 
 export default Testimonials;
+<<<<<<< HEAD
 
 
 // new comment 
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798

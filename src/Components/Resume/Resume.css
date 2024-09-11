@@ -50,12 +50,15 @@
     margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 .resume-title-date {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+=======
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
 @media only screen and (max-width: 600px) {
 
     .inner-resume {

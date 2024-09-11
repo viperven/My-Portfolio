@@ -9,7 +9,11 @@ import { IoLogoInstagram } from "react-icons/io";
 function Footer() {
   return (
     <>
+<<<<<<< HEAD
       <Container id="contact" className="section-footer">
+=======
+      <Container className="section-footer">
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
         <Row>
           <Col xs={12} lg={6}>
             <h2 className="heading-title">Let's Connect</h2>

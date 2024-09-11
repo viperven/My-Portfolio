@@ -35,10 +35,17 @@ function Navs() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
+<<<<<<< HEAD
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#project">Projects</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
+=======
+            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="#link">Projects</Nav.Link>
+            <Nav.Link href="#link">Resume</Nav.Link>
+            <Nav.Link href="#link">Contact</Nav.Link>
+>>>>>>> f68e191e9b003b94d0aa09e068e9d1498bb7e798
           </Nav>
         </Navbar.Collapse>
       </Container>
