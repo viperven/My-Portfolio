@@ -2,6 +2,8 @@ import "./Cards.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
+//rupesh jha
+
 function Cards({ title, img }) {
   return (
     <Card className="my-card">
